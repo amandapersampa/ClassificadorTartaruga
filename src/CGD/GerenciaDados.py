@@ -9,7 +9,7 @@ from time import time
 base = '.\\CGD\\base\\'
 source = ['carettacaretta','cheloniamydas','dermochelyscoriacea','eretmochelysimbricata','lepidochelysolivacea']
 
-def base_update(rotation_inv = True):
+def base_update(lbp='default'):
     output = open(base+'data.pkl', 'wb')
     i = 1
     for turtle in source:
@@ -20,8 +20,8 @@ def base_update(rotation_inv = True):
             tart = imread(nome)
             t = Turtle(turtle,tart)
             t0 = time()
-            t.rgb = characteristic_matrix_lbp_RGB(path+ turtle + "\\" + file,rotation_inv=rotation_inv)
-            t.ycbcr = characteristic_matrix_lbp_YCbCr(path +turtle + "\\" + file, rotation_inv=rotation_inv)
+            t.rgb = characteristic_matrix_lbp_RGB(path+ turtle + "\\" + file,lbp=lbp)
+            t.ycbcr = characteristic_matrix_lbp_YCbCr(path +turtle + "\\" + file, lbp=lbp)
             pickle.dump(t, output)
             print("Saved in file %d: done in %0.3fs" % (i,(time() - t0)))
             i =i +1

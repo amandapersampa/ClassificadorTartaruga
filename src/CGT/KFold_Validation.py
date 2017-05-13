@@ -103,18 +103,24 @@ def KFold_result(clf, lista, target, file, it, test_indices, train_indices):
 
 def error_list(y_test, y_pred, X_test_file):
     error = []
+    acert = []
     name_test = []
     name_pred = []
+    name_acert = []
     size = len(y_test)
+
     for count in range(size):
         if (y_pred[count] != y_test[count]):
             error.append(X_test_file[count])
             name_test.append(y_test[count])
             name_pred.append(y_pred[count])
-    return error, name_test, name_pred
+        else:
+            acert.append(X_test_file[count])
+            name_acert.append(y_test[count])
+    return error, name_test, name_pred, acert, name_acert
 
 # Calculates the total Kfold Values Saving the error Images
-def kfold(clf, lista, target, file, clf_name, mode_name, random = True, save = False, kfold_update=False):
+def kfold(clf, lista, target, file, clf_name, mode_name, random = True, save = False, kfold_update=False, lbp='default'):
     if (kfold_update):
         kfold = cross_validation.KFold(len(target), n_folds=10, shuffle=random)
         saveKfold(kfold)
@@ -126,74 +132,89 @@ def kfold(clf, lista, target, file, clf_name, mode_name, random = True, save = F
     error_file=[]
     name_test = []
     name_pred = []
+    result_file = []
+    name_result = []
     for train_indices, test_indices in kfold:
         r, m, labels, y_pred,y_test,X_test_file = (KFold_result(clf, lista, target, file, 'IT'+str(it), test_indices, train_indices))
         cm = sum_matrix(m, cm)
         result.append(r)
-        error_aux, name_test_aux, name_pred_aux = error_list(y_test, y_pred, X_test_file)
+        error_aux, name_test_aux, name_pred_aux, result_aux, name_result_aux = error_list(y_test, y_pred, X_test_file)
         error_file.extend(error_aux)
         name_test.extend(name_test_aux)
         name_pred.extend(name_pred_aux)
-
+        result_file.extend(result_aux)
+        name_result.extend(name_result_aux)
     if (save):
         saveImages_erro(error_file, name_test,name_pred, clf_name, mode_name)
-
 
     scores = np.array(result)
     print((u"Score mínimo: {0:.2f} percent \nScore máximo: {1:.2f} percent \nScore médio: {2:.2f} percent").format(
         scores.min()*100, scores.max()*100, scores.mean()*100))
-    plot_confusion_matrix(labels, cm, title=clf_name+" "+mode_name)
-    return error_file, name_test, name_pred
+    plot_confusion_matrix(labels, cm, title=clf_name+" "+mode_name, lbp=lbp)
+    return error_file, name_test, name_pred, result_file, name_result
 
 # KNN accuracy Value
-def accuracy_KNN(lista, target, file, nome,save = False, random = True, kfold_update=False):
+def accuracy_KNN(lista, target, file, nome,save = False, random = True, kfold_update=False, lbp='default'):
     clf = KNeighborsClassifier(n_neighbors=5, weights='uniform', algorithm='ball_tree')
     print("KNN with " + nome + " :")
-    return kfold(clf, lista, target, file, 'KNN', nome, random, save=save, kfold_update=kfold_update)
+    return kfold(clf, lista, target, file, 'KNN', nome, random, save=save, kfold_update=kfold_update, lbp=lbp)
 
 # SVM accuracy Value
-def accuracy_SVM(lista, target, file, nome, save=False, random = True, kfold_update=False):
+def accuracy_SVM(lista, target, file, nome, save=False, random = True, kfold_update=False, lbp='default'):
     clf = svm.SVC(probability=True, class_weight='balanced', C=1, kernel='linear')
     print("SVM with " + nome + " :")
-    return kfold(clf, lista, target, file, 'SVM', nome, random, save = save, kfold_update=kfold_update)
+    return kfold(clf, lista, target, file, 'SVM', nome, random, save = save, kfold_update=kfold_update, lbp=lbp)
 
 # The total accurancy of the KFold test
-def accuracyK_Fold(mode, clf, save=False, random = True, rotation_inv=True, b_update = False, kfold_update=False):
+def accuracyK_Fold(mode, clf, save=False, random = True, lbp='default', b_update = False, kfold_update=False):
     if(b_update):
         t0 = time()
-        base_update(rotation_inv)
+        base_update(lbp)
         print("Base Update in: done in %0.3fs" % (time() - t0))
     rgb, ycbcr, target, file = listas_normal()
     if(clf == 'SVM'):
         if(mode == 'RGB'):
-            return accuracy_SVM(rgb, target, file, mode, save=save, random = random,kfold_update=kfold_update)
+            return accuracy_SVM(rgb, target, file, mode, save=save, random = random,kfold_update=kfold_update, lbp=lbp)
         else:
-            return accuracy_SVM(ycbcr, target, file, mode, save=save, random=random,kfold_update=kfold_update)
+            return accuracy_SVM(ycbcr, target, file, mode, save=save, random=random,kfold_update=kfold_update, lbp=lbp)
     else:
         if (mode == 'RGB'):
-            return accuracy_KNN(rgb, target, file, mode, save=save, random = random,kfold_update=kfold_update)
+            return accuracy_KNN(rgb, target, file, mode, save=save, random = random,kfold_update=kfold_update, lbp=lbp)
         else:
-            return accuracy_KNN(ycbcr, target, file, mode, save=save, random=random,kfold_update=kfold_update)
+            return accuracy_KNN(ycbcr, target, file, mode, save=save, random=random,kfold_update=kfold_update, lbp=lbp)
 
 # The accurancy of the Kfold test using SVM and RGB
-def accuracyK_Fold_SVM_RGB(save=False, random = True, rotation_inv=True, b_update = False, kfold_update=False):
+'''
+        * 'default': original local binary pattern which is gray scale but not
+            rotation invariant.
+        * 'ror': extension of default implementation which is gray scale and
+            rotation invariant.
+        * 'uniform': improved rotation invariance with uniform patterns and
+            finer quantization of the angular space which is gray scale and
+            rotation invariant.
+        * 'nri_uniform': non rotation-invariant uniform patterns variant
+            which is only gray scale invariant [2]_.
+        * 'var': rotation invariant variance measures of the contrast of local
+            image texture which is rotation but not gray scale invariant.
+'''
+def accuracyK_Fold_SVM_RGB(save=False, random = True, lbp='default', b_update = False, kfold_update=False):
     return accuracyK_Fold('RGB', 'SVM', save=save, random = random,
-                          rotation_inv=rotation_inv, b_update = b_update, kfold_update=kfold_update)
+                          lbp=lbp, b_update = b_update, kfold_update=kfold_update)
 
 # The accurancy of the Kfold test using SVM and YCbCr
-def accuracyK_Fold_SVM_YCBCR(save=False, random = True, rotation_inv=True, b_update = False, kfold_update=False):
+def accuracyK_Fold_SVM_YCBCR(save=False, random = True, lbp='default', b_update = False, kfold_update=False):
     return accuracyK_Fold('YCBCR', 'SVM', save=save, random = random,
-                          rotation_inv=rotation_inv, b_update = b_update, kfold_update=kfold_update)
+                          lbp=lbp, b_update = b_update, kfold_update=kfold_update)
 
 # The accurancy of the Kfold test using KNN and RGB
-def accuracyK_Fold_KNN_RGB(save=False, random = True, rotation_inv=True, b_update = False, kfold_update=False):
+def accuracyK_Fold_KNN_RGB(save=False, random = True, lbp='default', b_update = False, kfold_update=False):
     return accuracyK_Fold('RGB', 'KNN', save=save, random = random,
-                          rotation_inv=rotation_inv, b_update = b_update, kfold_update=kfold_update)
+                          lbp=lbp, b_update = b_update, kfold_update=kfold_update)
 
 # The accurancy of the Kfold test using KNN and YCbCr
-def accuracyK_Fold_KNN_YCBCR(save=False, random = True, rotation_inv=True, b_update = False, kfold_update=False):
+def accuracyK_Fold_KNN_YCBCR(save=False, random = True, lbp='default', b_update = False, kfold_update=False):
     return accuracyK_Fold('YCBCR', 'KNN', save=save, random = random,
-                          rotation_inv=rotation_inv, b_update = b_update, kfold_update=kfold_update)
+                          lbp=lbp, b_update = b_update, kfold_update=kfold_update)
 
 # Cleans the results in the folders
 def clean_Result():

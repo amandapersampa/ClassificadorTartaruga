@@ -1,7 +1,911 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1503812-a96a-45b7-a903-b0005ad67cbd" name="Default" comment="" />
+    <list default="true" id="a1503812-a96a-45b7-a903-b0005ad67cbd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/default-KNN RGB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/default-KNN YCBCR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/default-SVM RGB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/default-SVM YCBCR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nri_uniform-KNN RGB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nri_uniform-KNN YCBCR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nri_uniform-SVM RGB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nri_uniform-SVM YCBCR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ror-KNN RGB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ror-KNN YCBCR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ror-SVM RGB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ror-SVM YCBCR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uniform-KNN RGB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uniform-KNN YCBCR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uniform-SVM RGB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/uniform-SVM YCBCR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/var-KNN RGB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/var-KNN YCBCR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/var-SVM RGB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/var-SVM YCBCR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RESULTADOS.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/2B-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/2B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/2B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/2G-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/2G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/2G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/2Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/2R-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/2R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/2R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/3B-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/3B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/3B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/3G-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/3G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/3G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/3Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/3R-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/3R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/3R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/3imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/6B-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/6B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/6B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/6G-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/6G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/6G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/6Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/6R-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/6R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/6R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-cheloni/6imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/10B-hist-pred-caretta-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/10B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/10B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/10G-hist-pred-caretta-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/10G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/10G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/10Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/10R-hist-pred-caretta-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/10R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/10R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/10imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/11B-hist-pred-caretta-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/11B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/11B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/11G-hist-pred-caretta-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/11G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/11G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/11Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/11R-hist-pred-caretta-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/11R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/11R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/11imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/16B-hist-pred-caretta-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/16B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/16B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/16G-hist-pred-caretta-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/16G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/16G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/16Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/16R-hist-pred-caretta-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/16R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/16R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/23B-hist-pred-caretta-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/23B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/23B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/23G-hist-pred-caretta-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/23G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/23G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/23Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/23R-hist-pred-caretta-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/23R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/23R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/9B-hist-pred-caretta-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/9B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/9B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/9G-hist-pred-caretta-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/9G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/9G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/9Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/9R-hist-pred-caretta-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/9R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/9R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-dermoch/9imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/20B-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/20B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/20B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/20G-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/20G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/20G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/20Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/20R-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/20R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/20R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/25B-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/25B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/25B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/25G-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/25G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/25G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/25Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/25R-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/25R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/25R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/25imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/28B-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/28B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/28B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/28G-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/28G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/28G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/28Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/28R-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/28R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/28R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/28imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/4B-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/4B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/4B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/4G-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/4G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/4G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/4Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/4R-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/4R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/4R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/5B-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/5B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/5B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/5G-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/5G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/5G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/5Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/5R-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/5R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-caretta-esp-eretmoc/5R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-caretta/8B-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-caretta/8B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-caretta/8B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-caretta/8G-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-caretta/8G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-caretta/8G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-caretta/8Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-caretta/8R-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-caretta/8R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-caretta/8R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-caretta/8imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-dermoch/15B-hist-pred-cheloni-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-dermoch/15B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-dermoch/15B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-dermoch/15G-hist-pred-cheloni-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-dermoch/15G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-dermoch/15G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-dermoch/15Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-dermoch/15R-hist-pred-cheloni-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-dermoch/15R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-dermoch/15R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-eretmoc/17B-hist-pred-cheloni-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-eretmoc/17B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-eretmoc/17B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-eretmoc/17G-hist-pred-cheloni-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-eretmoc/17G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-eretmoc/17G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-eretmoc/17Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-eretmoc/17R-hist-pred-cheloni-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-eretmoc/17R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-eretmoc/17R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-eretmoc/17imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-lepidoc/13B-hist-pred-cheloni-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-lepidoc/13B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-lepidoc/13B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-lepidoc/13G-hist-pred-cheloni-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-lepidoc/13G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-lepidoc/13G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-lepidoc/13Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-lepidoc/13R-hist-pred-cheloni-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-lepidoc/13R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-lepidoc/13R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-cheloni-esp-lepidoc/13imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/0B-hist-pred-dermoch-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/0B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/0B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/0G-hist-pred-dermoch-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/0G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/0G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/0Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/0R-hist-pred-dermoch-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/0R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/0R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/0imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/14B-hist-pred-dermoch-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/14B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/14B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/14G-hist-pred-dermoch-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/14G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/14G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/14Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/14R-hist-pred-dermoch-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/14R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/14R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/14imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/26B-hist-pred-dermoch-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/26B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/26B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/26G-hist-pred-dermoch-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/26G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/26G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/26Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/26R-hist-pred-dermoch-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/26R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/26R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-caretta/26imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/12B-hist-pred-dermoch-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/12B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/12B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/12G-hist-pred-dermoch-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/12G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/12G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/12Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/12R-hist-pred-dermoch-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/12R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/12R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/12imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/18B-hist-pred-dermoch-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/18B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/18B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/18G-hist-pred-dermoch-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/18G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/18G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/18Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/18R-hist-pred-dermoch-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/18R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/18R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/21B-hist-pred-dermoch-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/21B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/21B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/21G-hist-pred-dermoch-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/21G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/21G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/21Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/21R-hist-pred-dermoch-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/21R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/21R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/22B-hist-pred-dermoch-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/22B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/22B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/22G-hist-pred-dermoch-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/22G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/22G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/22Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/22R-hist-pred-dermoch-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/22R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-dermoch-esp-eretmoc/22R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-caretta/1B-hist-pred-eretmoc-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-caretta/1B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-caretta/1B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-caretta/1G-hist-pred-eretmoc-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-caretta/1G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-caretta/1G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-caretta/1Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-caretta/1R-hist-pred-eretmoc-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-caretta/1R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-caretta/1R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-caretta/1imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-cheloni/27B-hist-pred-eretmoc-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-cheloni/27B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-cheloni/27B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-cheloni/27G-hist-pred-eretmoc-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-cheloni/27G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-cheloni/27G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-cheloni/27Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-cheloni/27R-hist-pred-eretmoc-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-cheloni/27R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-cheloni/27R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-cheloni/27imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-dermoch/24B-hist-pred-eretmoc-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-dermoch/24B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-dermoch/24B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-dermoch/24G-hist-pred-eretmoc-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-dermoch/24G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-dermoch/24G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-dermoch/24Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-dermoch/24R-hist-pred-eretmoc-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-dermoch/24R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-dermoch/24R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-eretmoc-esp-dermoch/24imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/19B-hist-pred-lepidoc-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/19B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/19B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/19G-hist-pred-lepidoc-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/19G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/19G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/19Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/19R-hist-pred-lepidoc-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/19R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/19R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/19imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/7B-hist-pred-lepidoc-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/7B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/7B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/7G-hist-pred-lepidoc-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/7G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/7G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/7Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/7R-hist-pred-lepidoc-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/7R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/RGB/pred-lepidoc-esp-eretmoc/7R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/0Cb-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/0Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/0Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/0Cr-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/0Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/0Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/0Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/0Y-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/0Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/0Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/18Cb-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/18Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/18Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/18Cr-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/18Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/18Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/18Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/18Y-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/18Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/18Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/18imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/1Cb-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/1Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/1Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/1Cr-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/1Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/1Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/1Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/1Y-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/1Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/1Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/20Cb-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/20Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/20Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/20Cr-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/20Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/20Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/20Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/20Y-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/20Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/20Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/21Cb-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/21Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/21Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/21Cr-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/21Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/21Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/21Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/21Y-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/21Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/21Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/6Cb-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/6Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/6Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/6Cr-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/6Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/6Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/6Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/6Y-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/6Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/6Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/6imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/7Cb-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/7Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/7Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/7Cr-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/7Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/7Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/7Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/7Y-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/7Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/7Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/8Cb-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/8Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/8Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/8Cr-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/8Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/8Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/8Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/8Y-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/8Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/8Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/9Cb-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/9Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/9Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/9Cr-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/9Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/9Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/9Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/9Y-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/9Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-cheloni/9Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/25Cb-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/25Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/25Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/25Cr-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/25Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/25Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/25Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/25Y-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/25Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/25Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/2Cb-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/2Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/2Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/2Cr-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/2Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/2Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/2Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/2Y-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/2Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-caretta-esp-eretmoc/2Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/10Cb-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/10Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/10Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/10Cr-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/10Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/10Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/10Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/10Y-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/10Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/10Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/14Cb-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/14Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/14Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/14Cr-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/14Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/14Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/14Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/14Y-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/14Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/14Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/14imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/15Cb-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/15Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/15Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/15Cr-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/15Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/15Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/15Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/15Y-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/15Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/15Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/23Cb-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/23Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/23Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/23Cr-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/23Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/23Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/23Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/23Y-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/23Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/23Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-caretta/23imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/11Cb-hist-pred-cheloni-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/11Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/11Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/11Cr-hist-pred-cheloni-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/11Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/11Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/11Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/11Y-hist-pred-cheloni-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/11Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/11Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/11imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/16Cb-hist-pred-cheloni-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/16Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/16Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/16Cr-hist-pred-cheloni-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/16Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/16Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/16Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/16Y-hist-pred-cheloni-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/16Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/16Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/16imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/17Cb-hist-pred-cheloni-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/17Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/17Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/17Cr-hist-pred-cheloni-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/17Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/17Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/17Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/17Y-hist-pred-cheloni-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/17Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/17Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-eretmoc/17imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/12Cb-hist-pred-cheloni-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/12Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/12Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/12Cr-hist-pred-cheloni-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/12Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/12Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/12Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/12Y-hist-pred-cheloni-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/12Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/12Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/19Cb-hist-pred-cheloni-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/19Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/19Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/19Cr-hist-pred-cheloni-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/19Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/19Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/19Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/19Y-hist-pred-cheloni-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/19Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/19Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/3Cb-hist-pred-cheloni-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/3Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/3Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/3Cr-hist-pred-cheloni-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/3Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/3Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/3Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/3Y-hist-pred-cheloni-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/3Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-cheloni-esp-lepidoc/3Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/22Cb-hist-pred-dermoch-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/22Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/22Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/22Cr-hist-pred-dermoch-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/22Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/22Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/22Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/22Y-hist-pred-dermoch-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/22Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/22Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/22imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/5Cb-hist-pred-dermoch-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/5Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/5Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/5Cr-hist-pred-dermoch-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/5Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/5Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/5Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/5Y-hist-pred-dermoch-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/5Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-dermoch-esp-lepidoc/5Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-caretta/13Cb-hist-pred-eretmoc-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-caretta/13Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-caretta/13Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-caretta/13Cr-hist-pred-eretmoc-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-caretta/13Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-caretta/13Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-caretta/13Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-caretta/13Y-hist-pred-eretmoc-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-caretta/13Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-caretta/13Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-caretta/13imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-cheloni/24Cb-hist-pred-eretmoc-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-cheloni/24Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-cheloni/24Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-cheloni/24Cr-hist-pred-eretmoc-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-cheloni/24Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-cheloni/24Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-cheloni/24Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-cheloni/24Y-hist-pred-eretmoc-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-cheloni/24Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-cheloni/24Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-lepidoc/26Cb-hist-pred-eretmoc-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-lepidoc/26Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-lepidoc/26Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-lepidoc/26Cr-hist-pred-eretmoc-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-lepidoc/26Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-lepidoc/26Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-lepidoc/26Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-lepidoc/26Y-hist-pred-eretmoc-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-lepidoc/26Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-lepidoc/26Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-eretmoc-esp-lepidoc/26imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-lepidoc-esp-cheloni/4Cb-hist-pred-lepidoc-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-lepidoc-esp-cheloni/4Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-lepidoc-esp-cheloni/4Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-lepidoc-esp-cheloni/4Cr-hist-pred-lepidoc-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-lepidoc-esp-cheloni/4Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-lepidoc-esp-cheloni/4Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-lepidoc-esp-cheloni/4Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-lepidoc-esp-cheloni/4Y-hist-pred-lepidoc-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-lepidoc-esp-cheloni/4Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/KNN/YCbCr/pred-lepidoc-esp-cheloni/4Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-cheloni/6B-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-cheloni/6B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-cheloni/6B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-cheloni/6G-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-cheloni/6G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-cheloni/6G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-cheloni/6Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-cheloni/6R-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-cheloni/6R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-cheloni/6R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-cheloni/6imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-dermoch/7B-hist-pred-caretta-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-dermoch/7B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-dermoch/7B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-dermoch/7G-hist-pred-caretta-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-dermoch/7G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-dermoch/7G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-dermoch/7Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-dermoch/7R-hist-pred-caretta-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-dermoch/7R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-dermoch/7R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/10B-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/10B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/10B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/10G-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/10G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/10G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/10Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/10R-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/10R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/10R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/8B-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/8B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/8B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/8G-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/8G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/8G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/8Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/8R-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/8R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-caretta-esp-eretmoc/8R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/11B-hist-pred-dermoch-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/11B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/11B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/11G-hist-pred-dermoch-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/11G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/11G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/11Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/11R-hist-pred-dermoch-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/11R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/11R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/11imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/3B-hist-pred-dermoch-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/3B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/3B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/3G-hist-pred-dermoch-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/3G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/3G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/3Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/3R-hist-pred-dermoch-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/3R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-caretta/3R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-lepidoc/2B-hist-pred-dermoch-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-lepidoc/2B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-lepidoc/2B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-lepidoc/2G-hist-pred-dermoch-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-lepidoc/2G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-lepidoc/2G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-lepidoc/2Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-lepidoc/2R-hist-pred-dermoch-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-lepidoc/2R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-dermoch-esp-lepidoc/2R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/0B-hist-pred-eretmoc-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/0B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/0B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/0G-hist-pred-eretmoc-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/0G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/0G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/0Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/0R-hist-pred-eretmoc-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/0R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/0R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/1B-hist-pred-eretmoc-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/1B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/1B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/1G-hist-pred-eretmoc-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/1G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/1G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/1Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/1R-hist-pred-eretmoc-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/1R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/1R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/4B-hist-pred-eretmoc-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/4B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/4B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/4G-hist-pred-eretmoc-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/4G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/4G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/4Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/4R-hist-pred-eretmoc-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/4R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-cheloni/4R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-dermoch/9B-hist-pred-eretmoc-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-dermoch/9B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-dermoch/9B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-dermoch/9G-hist-pred-eretmoc-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-dermoch/9G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-dermoch/9G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-dermoch/9Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-dermoch/9R-hist-pred-eretmoc-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-dermoch/9R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-dermoch/9R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-eretmoc-esp-dermoch/9imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-lepidoc-esp-dermoch/5B-hist-pred-lepidoc-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-lepidoc-esp-dermoch/5B-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-lepidoc-esp-dermoch/5B-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-lepidoc-esp-dermoch/5G-hist-pred-lepidoc-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-lepidoc-esp-dermoch/5G-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-lepidoc-esp-dermoch/5G-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-lepidoc-esp-dermoch/5Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-lepidoc-esp-dermoch/5R-hist-pred-lepidoc-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-lepidoc-esp-dermoch/5R-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-lepidoc-esp-dermoch/5R-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/RGB/pred-lepidoc-esp-dermoch/5imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/1Cb-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/1Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/1Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/1Cr-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/1Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/1Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/1Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/1Y-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/1Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/1Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/2Cb-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/2Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/2Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/2Cr-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/2Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/2Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/2Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/2Y-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/2Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/2Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/6Cb-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/6Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/6Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/6Cr-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/6Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/6Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/6Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/6Y-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/6Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/6Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/7Cb-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/7Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/7Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/7Cr-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/7Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/7Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/7Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/7Y-hist-pred-caretta-esp-cheloni.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/7Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-cheloni/7Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-eretmoc/8Cb-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-eretmoc/8Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-eretmoc/8Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-eretmoc/8Cr-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-eretmoc/8Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-eretmoc/8Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-eretmoc/8Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-eretmoc/8Y-hist-pred-caretta-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-eretmoc/8Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-caretta-esp-eretmoc/8Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/10Cb-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/10Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/10Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/10Cr-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/10Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/10Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/10Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/10Y-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/10Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/10Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/10imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/4Cb-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/4Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/4Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/4Cr-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/4Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/4Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/4Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/4Y-hist-pred-cheloni-esp-caretta.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/4Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/4Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-caretta/4imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-eretmoc/3Cb-hist-pred-cheloni-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-eretmoc/3Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-eretmoc/3Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-eretmoc/3Cr-hist-pred-cheloni-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-eretmoc/3Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-eretmoc/3Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-eretmoc/3Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-eretmoc/3Y-hist-pred-cheloni-esp-eretmoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-eretmoc/3Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-cheloni-esp-eretmoc/3Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/0Cb-hist-pred-dermoch-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/0Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/0Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/0Cr-hist-pred-dermoch-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/0Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/0Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/0Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/0Y-hist-pred-dermoch-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/0Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/0Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/9Cb-hist-pred-dermoch-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/9Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/9Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/9Cr-hist-pred-dermoch-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/9Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/9Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/9Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/9Y-hist-pred-dermoch-esp-lepidoc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/9Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-dermoch-esp-lepidoc/9Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-lepidoc-esp-dermoch/5Cb-hist-pred-lepidoc-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-lepidoc-esp-dermoch/5Cb-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-lepidoc-esp-dermoch/5Cb-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-lepidoc-esp-dermoch/5Cr-hist-pred-lepidoc-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-lepidoc-esp-dermoch/5Cr-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-lepidoc-esp-dermoch/5Cr-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-lepidoc-esp-dermoch/5Imagem-original.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-lepidoc-esp-dermoch/5Y-hist-pred-lepidoc-esp-dermoch.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-lepidoc-esp-dermoch/5Y-image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-lepidoc-esp-dermoch/5Y-lbp.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/SVM/YCbCr/pred-lepidoc-esp-dermoch/5imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-caretta-esp-dermoch/29imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-caretta-esp-eretmoc/12imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-cheloni-esp-eretmoc/19imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-cheloni-esp-eretmoc/27imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-cheloni-esp-eretmoc/31imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-cheloni-esp-eretmoc/35imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-cheloni-esp-eretmoc/41imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-cheloni-esp-lepidoc/37imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-cheloni-esp-lepidoc/4imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-dermoch-esp-caretta/21imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-dermoch-esp-cheloni/14imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-dermoch-esp-eretmoc/16imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-dermoch-esp-eretmoc/6imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-dermoch-esp-lepidoc/7imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-eretmoc-esp-cheloni/13imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-eretmoc-esp-cheloni/22imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-eretmoc-esp-cheloni/33imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-eretmoc-esp-cheloni/38imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-eretmoc-esp-cheloni/5imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-eretmoc-esp-cheloni/8imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-eretmoc-esp-dermoch/23imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-eretmoc-esp-dermoch/25imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-eretmoc-esp-dermoch/34imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-lepidoc-esp-cheloni/15imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-lepidoc-esp-cheloni/2imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-lepidoc-esp-cheloni/32imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-lepidoc-esp-cheloni/3imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/RGB/erro/pred-lepidoc-esp-eretmoc/30imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/YCbCr/erro/pred-caretta-esp-cheloni/15imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/YCbCr/erro/pred-caretta-esp-cheloni/29imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/YCbCr/erro/pred-caretta-esp-eretmoc/30imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/YCbCr/erro/pred-caretta-esp-eretmoc/5imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/YCbCr/erro/pred-cheloni-esp-caretta/20imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/YCbCr/erro/pred-cheloni-esp-eretmoc/24imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/YCbCr/erro/pred-cheloni-esp-eretmoc/25imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/YCbCr/erro/pred-cheloni-esp-lepidoc/17imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/YCbCr/erro/pred-cheloni-esp-lepidoc/19imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/YCbCr/erro/pred-cheloni-esp-lepidoc/27imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/YCbCr/erro/pred-dermoch-esp-lepidoc/10imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/YCbCr/erro/pred-eretmoc-esp-caretta/18imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/YCbCr/erro/pred-eretmoc-esp-cheloni/12imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/YCbCr/erro/pred-eretmoc-esp-cheloni/13imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/YCbCr/erro/pred-eretmoc-esp-cheloni/14imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CGT/Result/default/SVM/YCbCr/erro/pred-lepidoc-esp-cheloni/23imagem-erro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/KNN RGB.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/KNN YCBCR.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SVM RGB.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SVM YCBCR.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Application.py" afterPath="$PROJECT_DIR$/src/Application.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGD/Extracao_caracteristicas.py" afterPath="$PROJECT_DIR$/src/CGD/Extracao_caracteristicas.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGD/GerenciaDados.py" afterPath="$PROJECT_DIR$/src/CGD/GerenciaDados.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGD/base/data.pkl" afterPath="$PROJECT_DIR$/src/CGD/base/data.pkl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGT/Error_Validate.py" afterPath="$PROJECT_DIR$/src/CGT/Error_Validate.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CGT/KFold_Validation.py" afterPath="$PROJECT_DIR$/src/CGT/KFold_Validation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CIH/Screen.py" afterPath="$PROJECT_DIR$/src/CIH/Screen.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,26 +919,12 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Application.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Application.py">
+      <file leaf-file-name="GerenciaDados.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CGD/GerenciaDados.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Error_Validate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CGT/Error_Validate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#79#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -42,9 +932,11 @@
       <file leaf-file-name="Screen.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CIH/Screen.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,42 +944,44 @@
       <file leaf-file-name="Extracao_caracteristicas.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CGD/Extracao_caracteristicas.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-                <element signature="e#199#423#0" expanded="false" />
-                <element signature="e#448#554#0" expanded="false" />
-                <element signature="e#593#859#0" expanded="false" />
-                <element signature="e#890#996#0" expanded="false" />
-                <element signature="e#1020#1336#0" expanded="false" />
-                <element signature="e#1367#1873#0" expanded="false" />
-                <element signature="e#1942#2000#0" expanded="false" />
-                <element signature="e#2070#2131#0" expanded="false" />
-                <element signature="e#2193#2290#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GerenciaDados.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CGD/GerenciaDados.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gest_KFold.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CGD/Gest_KFold.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="29" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pilutil.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/scipy/misc/pilutil.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1377">
+              <caret line="89" column="18" lean-forward="false" selection-start-line="89" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1122">
+              <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+                <marker date="1494403848003" expanded="true" signature="1077:1758" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Error_Validate.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CGT/Error_Validate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,20 +998,51 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>tur</find>
+      <find>base</find>
+      <find>Saved in filE</find>
+      <find>erro</find>
+      <find>save</find>
+      <find>&quot;</find>
+      <find>save_hist</find>
+      <find>imsave</find>
+      <find>im</find>
+      <find>uniform</find>
+      <find>plot_confusion_matrix</find>
+      <find>plot</find>
+      <find>plot_</find>
+      <find>kfold</find>
+      <find>accuracy_KNN(</find>
+      <find>def kfold(</find>
+      <find>kfold(</find>
+      <find>plot_confusion_matrix(</find>
       <find>root</find>
+      <find>characteristic_matrix_lbp_YCbCr</find>
+      <find>toimage</find>
+      <find>base_update</find>
+      <find>print</find>
+      <find>create_collage</find>
+      <find>'.png'</find>
+      <find>clean</find>
     </findStrings>
+    <replaceStrings>
+      <replace>'</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/CGD/Extracao_caracteristicas.py" />
         <option value="$PROJECT_DIR$/src/CDP/Turtle.py" />
-        <option value="$PROJECT_DIR$/src/CGD/GerenciaDados.py" />
         <option value="$PROJECT_DIR$/src/CGD/Gest_KFold.py" />
+        <option value="$PROJECT_DIR$/src/CGT/collages.py" />
+        <option value="$PROJECT_DIR$/src/CGD/GerenciaDados.py" />
+        <option value="$PROJECT_DIR$/src/CGT/KFold_Validation.py" />
+        <option value="$PROJECT_DIR$/src/CGD/Extracao_caracteristicas.py" />
+        <option value="$PROJECT_DIR$/src/Application.py" />
         <option value="$PROJECT_DIR$/src/CIH/Screen.py" />
         <option value="$PROJECT_DIR$/src/CGT/Error_Validate.py" />
-        <option value="$PROJECT_DIR$/src/CGT/KFold_Validation.py" />
-        <option value="$PROJECT_DIR$/src/Application.py" />
       </list>
     </option>
   </component>
@@ -142,7 +1067,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -154,156 +1078,16 @@
               <option name="myItemId" value="ClassificadorTartaruga" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClassificadorTartaruga" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClassificadorTartaruga" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClassificadorTartaruga" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClassificadorTartaruga" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Result" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SVM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YCbCr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClassificadorTartaruga" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClassificadorTartaruga" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Result" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SVM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RGB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClassificadorTartaruga" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClassificadorTartaruga" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Result" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KNN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="YCbCr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClassificadorTartaruga" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClassificadorTartaruga" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CGT" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Result" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KNN" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RGB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../packtpub-crawler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -516,26 +1300,45 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19253294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5488959" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5488959" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19253294" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -549,20 +1352,11 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+        <state relative-caret-position="102">
+          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CGT/KFold_Validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <marker date="1494403848003" expanded="true" signature="1077:1758" ph="..." />
           </folding>
         </state>
       </provider>
@@ -572,16 +1366,187 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#79#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGT/KFold_Validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2601">
+          <caret line="163" column="15" lean-forward="false" selection-start-line="163" selection-start-column="15" selection-end-line="163" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGD/GerenciaDados.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="46" column="1" lean-forward="false" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CDP/Turtle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <marker date="1494403848003" expanded="true" signature="1077:1758" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGT/Error_Validate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGT/KFold_Validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGD/GerenciaDados.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CDP/Turtle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <marker date="1494403848003" expanded="true" signature="1077:1758" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGT/Error_Validate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGT/KFold_Validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGD/GerenciaDados.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CDP/Turtle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <marker date="1494403848003" expanded="true" signature="1077:1758" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGT/Error_Validate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGT/KFold_Validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGD/GerenciaDados.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CDP/Turtle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <marker date="1494403848003" expanded="true" signature="1077:1758" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGT/Error_Validate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CIH/Screen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="663">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -589,18 +1554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-            <element signature="e#199#423#0" expanded="false" />
-            <element signature="e#448#554#0" expanded="false" />
-            <element signature="e#593#859#0" expanded="false" />
-            <element signature="e#890#996#0" expanded="false" />
-            <element signature="e#1020#1336#0" expanded="false" />
-            <element signature="e#1367#1873#0" expanded="false" />
-            <element signature="e#1942#2000#0" expanded="false" />
-            <element signature="e#2070#2131#0" expanded="false" />
-            <element signature="e#2193#2290#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -608,42 +1561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CGD/Gest_KFold.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CDP/Turtle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CGD/GerenciaDados.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CGD/base/kFold.pkl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -652,7 +1569,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <marker date="1494403848003" expanded="true" signature="1077:1758" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGT/KFold_Validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGT/Error_Validate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CIH/Screen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -660,18 +1611,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#44#0" expanded="true" />
-            <element signature="e#199#423#0" expanded="false" />
-            <element signature="e#448#554#0" expanded="false" />
-            <element signature="e#593#859#0" expanded="false" />
-            <element signature="e#890#996#0" expanded="false" />
-            <element signature="e#1020#1336#0" expanded="false" />
-            <element signature="e#1367#1873#0" expanded="false" />
-            <element signature="e#1942#2000#0" expanded="false" />
-            <element signature="e#2070#2131#0" expanded="false" />
-            <element signature="e#2193#2290#0" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGD/GerenciaDados.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGD/Gest_KFold.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGD/base/kFold.pkl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -682,40 +1643,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGD/Gest_KFold.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/numpy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101286">
+          <caret line="6001" column="29" lean-forward="false" selection-start-line="6001" selection-start-column="25" selection-end-line="6001" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CDP/Turtle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/1402888915/skimage/feature/_texture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52819">
+          <caret line="3157" column="12" lean-forward="false" selection-start-line="3157" selection-start-column="12" selection-end-line="3157" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGT/collages.py" />
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/skimage/feature/texture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="285" column="23" lean-forward="false" selection-start-line="285" selection-start-column="23" selection-end-line="285" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/PIL/Image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="1313" column="33" lean-forward="false" selection-start-line="1313" selection-start-column="29" selection-end-line="1313" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGT/KFold_Validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="219" column="4" lean-forward="false" selection-start-line="219" selection-start-column="4" selection-end-line="219" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Python36-32/Lib/site-packages/scipy/misc/pilutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="89" column="18" lean-forward="false" selection-start-line="89" selection-start-column="18" selection-end-line="90" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="67" column="0" lean-forward="false" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <marker date="1494403848003" expanded="true" signature="1077:1758" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGD/Extracao_caracteristicas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/CIH/Screen.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CGD/GerenciaDados.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/CGT/Error_Validate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <element signature="e#0#79#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CGT/KFold_Validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="199" column="38" lean-forward="false" selection-start-line="199" selection-start-column="38" selection-end-line="199" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
